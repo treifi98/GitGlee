@@ -1,5 +1,5 @@
-const shell = require('shelljs');
-const chalk = require('chalk');
+import shell from 'shelljs'
+import chalk from 'chalk'
 // const axios = require('axios');
 
 let jokes = ["Joke 1", "Joke 2"];
@@ -29,4 +29,3 @@ shell.exec('git rev-parse --verify HEAD', (code, stdout, stderr) => {
     displayMessage(getRandomMessage());
   }
 });
-   
