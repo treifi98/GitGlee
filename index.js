@@ -29,4 +29,4 @@ shell.exec('git rev-parse --verify HEAD', (code, stdout, stderr) => {
     displayMessage(getRandomMessage());
   }
 });
-  
+   
